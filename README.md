@@ -227,15 +227,11 @@ Interactive filters allow users to drill into the analysis by dimensions such as
 
 The project follows a **star-schema data modeling approach**, with fact and dimension tables structured to support efficient analytical queries and flexible reporting.
 
-### Conceptual Model
-
 <img width="1016" height="410" alt="image" src="https://github.com/user-attachments/assets/dd3538e7-99fa-4bca-88e4-feb1fee5d1a1" />
 
-```
 
-The model separates transactional sales data from descriptive dimensions, enabling reusable DAX measures and interactive filtering.
 
----
+
 
 ## 🛠️ Tools & Technologies
 
@@ -339,12 +335,12 @@ PowerBI-Sales-Market-Analytics/
 │
 ├── README.md
 │
-├── PowerBI/
+├── PowerBI_Dashboard/
 │   └── Pharma_Sales_Analysis_AM.pbix
 │
 ├── Data/
 │   └── Diabetes_Dataset.xlsx
-    |___Obesity_Dataset.xlsx
+|   |___Obesity_Dataset.xlsx
 |   |___ Region_Dataset.xlsx 
 │
 
@@ -354,19 +350,7 @@ PowerBI-Sales-Market-Analytics/
 
 ---
 
-## 🖥️ Dashboard Preview
 
-### Sales Performance
-
-![Sales Performance Dashboard](Screenshots/sales-performance.png)
-
-### Market & Competitive Analysis
-
-![Market Analysis Dashboard](Screenshots/market-analysis.png)
-
-> Replace the image paths above with the actual screenshots included in the repository.
-
----
 
 ## 🔍 Example User Journey
 
